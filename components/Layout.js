@@ -1,5 +1,6 @@
 import Head from 'next/head';
 import Link from 'next/link';
+
 import React from 'react';
 
 export default function Layout({ title, children }) {
@@ -17,8 +18,13 @@ export default function Layout({ title, children }) {
               <a className="text-lg font-bold">MyStore</a>
             </Link>
             <div>
-              <Link href="/cart">Cart</Link>
-              <Link href="/login">Login</Link>
+              <Link href="/cart">
+                <a className="p-2">Cart</a>
+              </Link>
+
+              <Link href="/login">
+                <a className="p-2">Login</a>
+              </Link>
             </div>
           </nav>
         </header>
