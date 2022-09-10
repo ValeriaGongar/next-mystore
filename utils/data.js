@@ -2,7 +2,7 @@ const data = {
   products: [
     {
       name: 'Compostera Negra Un Cajon',
-      slug: 'compostera-plastico',
+      slug: 'compostera-n1cajon',
       category: 'Composteras',
       image: '/images/cajon-negro/cajon-negro.jpg',
       imageb: '/images/cajon-negro/cajon-negrob.jpg',
@@ -10,12 +10,12 @@ const data = {
       brand: 'Cultivate',
       rating: 9,
       numReviews: 8,
-      countInStock: 20,
+      countInStock: 2,
       description: 'Plástico reciclado, un cajon',
     },
     {
       name: 'Compostera Negra Dos Cajones',
-      slug: 'compostera-plastico',
+      slug: 'compostera-n2cajon',
       category: 'Composteras',
       image: '/images/compo-negra-2cj/compo-negra-2cj.jpg',
       price: 80,
@@ -27,7 +27,7 @@ const data = {
     },
     {
       name: 'Compostera Negra Tres Cajones',
-      slug: 'compostera-plastico',
+      slug: 'compostera-n3cajon',
       category: 'Composteras',
       image: '/images/compo-negra-3cj/compo-negra-3cj.jpg',
       price: 100,
@@ -39,7 +39,7 @@ const data = {
     },
     {
       name: 'Compostera Negra Cuatro Cajones',
-      slug: 'compostera-plastico',
+      slug: 'compostera-n4cajon',
       category: 'Composteras',
       image: '/images/compo-negra-4cj/compo-negra-4cj.jpg',
       price: 120,
@@ -51,7 +51,7 @@ const data = {
     },
     {
       name: 'Compostera Blanca Un Cajon',
-      slug: 'compostera-plastico',
+      slug: 'compostera-b1cajon',
       category: 'Composteras',
       image: '/images/cajon-blanco/cajon-blanco.jpg',
       price: 60,
@@ -63,7 +63,7 @@ const data = {
     },
     {
       name: 'Compostera Blanca Dos Cajones',
-      slug: 'compostera-plastico',
+      slug: 'compostera-b2cajon',
       category: 'Composteras',
       image: '/images/compo-blanca-2cj/compo-blanco-2cj.jpg',
       price: 80,
@@ -75,7 +75,7 @@ const data = {
     },
     {
       name: 'Compostera Blanca Tres Cajones',
-      slug: 'compostera-plastico',
+      slug: 'compostera-b3cajon',
       category: 'Composteras',
       image: '/images/compo-blanca-3cj/compo-blanca-3cj.jpg',
       price: 100,
@@ -87,7 +87,7 @@ const data = {
     },
     {
       name: 'Compostera Blanca Cuatro Cajones',
-      slug: 'compostera-plastico',
+      slug: 'compostera-b4cajon',
       category: 'Composteras',
       image: '/images/compo-blanca-4cj/compo-blanca-4cj.jpg',
       price: 120,
@@ -111,7 +111,7 @@ const data = {
     },
     {
       name: 'Compostera Madera Piso',
-      slug: 'compostera-madera',
+      slug: 'compostera-piso',
       category: 'Composteras',
       image: '/images/compo-madera-piso/compo-madera-piso.jpg',
       price: 180,
@@ -135,7 +135,7 @@ const data = {
     },
     {
       name: 'Tamiz',
-      slug: 'accesorio-composta',
+      slug: 'accesorio-tamiz',
       category: 'Accesorios',
       image: '/images/tamiz/tamiz.jpg',
       price: 60,
@@ -147,7 +147,7 @@ const data = {
     },
     {
       name: 'Aireador',
-      slug: 'accesorios-composta',
+      slug: 'accesorios-aireador',
       category: 'Accesorios',
       image: '/images/aireador/aireador.jpg',
       price: 50,
@@ -171,7 +171,7 @@ const data = {
     },
     {
       name: 'Kit Protege tus Semillas',
-      slug: 'kit-siembra',
+      slug: 'kit-semilla',
       category: 'Kit',
       image: '/images/kit-prote-semillas/kit-prote-semillas.jpg',
       price: 250,
@@ -195,7 +195,7 @@ const data = {
     },
     {
       name: 'Huerta Mediana',
-      slug: 'Huerta',
+      slug: 'huerta',
       category: 'huerta',
       image: '/images/huerta-mediana/huerta-mediana.jpg',
       price: 300,
@@ -207,7 +207,7 @@ const data = {
     },
     {
       name: 'Pala Ancha',
-      slug: 'accesorios-siembra',
+      slug: 'accesorios-pala',
       category: 'Accesorios',
       image: '/images/pala-ancha/Pala-Anchab.jpg',
       price: 100,
@@ -219,7 +219,7 @@ const data = {
     },
     {
       name: 'Compostera Giratoria 4kg',
-      slug: 'compostera-plastico',
+      slug: 'compostera-gira4',
       category: 'Composteras',
       image: '/images/dc-40/dc-40.jpg',
       price: 195,
@@ -231,7 +231,7 @@ const data = {
     },
     {
       name: 'Compostera Giratoria 8kg',
-      slug: 'compostera-plastico',
+      slug: 'compostera-gira8',
       category: 'Composteras',
       image: '/images/dc-80/dc-80.jpg',
       price: 220,
@@ -243,7 +243,7 @@ const data = {
     },
     {
       name: 'Compostera Giratoria 10kg',
-      slug: 'compostera-plastico',
+      slug: 'compostera-gira10',
       category: 'Composteras',
       image: '/images/ks-100/ks-100.jpg',
       price: 280,

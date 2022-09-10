@@ -8,7 +8,7 @@ const initialState = {
 
 function reducer(state, action) {
   switch (action.type) {
-    case 'Cart_ADD_ITEM': {
+    case 'CART_ADD_ITEM': {
       const newItem = action.payload;
       const existItem = state.cart.cartItems.find(
         (item) => item.slug === newItem.slug
@@ -25,4 +25,8 @@ function reducer(state, action) {
   }
 }
 
-export function StoreProvider({ children }) {}
+export function StoreProvider({ children }) {
+  const [state, dispatch] = useReducer(reducer, initialState);
+  const value = { state, dispatch };
+  return <Store.Provider value={value}>{children}</Store.Provider>;
+}
