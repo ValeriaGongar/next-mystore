@@ -97,6 +97,7 @@ function CartScreen() {
               </li>
               <li>
                 <button
+                  /* Redirecting to the login page. */
                   onClick={() => router.push('/shipping')}
                   className="primary-button w-full"
                 >
