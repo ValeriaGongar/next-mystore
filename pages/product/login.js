@@ -1,10 +1,9 @@
-import dynamic from 'next/dynamic';
 import Link from 'next/link';
 import React from 'react';
 import { useForm } from 'react-hook-form';
 import Layout from '../components/Layout';
 
-function LoginScreen() {
+export default function LoginScreen() {
   const {
     handleSubmit,
     register,
@@ -66,5 +65,3 @@ function LoginScreen() {
     </Layout>
   );
 }
-
-export default dynamic(() => Promise.resolve(LoginScreen), { ssr: true });
