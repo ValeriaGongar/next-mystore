@@ -21,7 +21,7 @@ function CartScreen() {
     dispatch({ type: 'CART_ADD_ITEM', payload: { ...item, quantity } });
   };
   return (
-    <Layout title="Shoping Cart">
+    <Layout title="Shopping Cart">
       <h1 className="mb-4 text-xl">Shopping Cart</h1>
       {/* Se abre para renderizar el condicional */}
       {cartItems.length === 0 ? (
@@ -98,7 +98,7 @@ function CartScreen() {
               <li>
                 <button
                   /* Redirecting to the login page. */
-                  onClick={() => router.push('/shipping')}
+                  onClick={() => router.push('login?redirect=/shipping')}
                   className="primary-button w-full"
                 >
                   Check Out
